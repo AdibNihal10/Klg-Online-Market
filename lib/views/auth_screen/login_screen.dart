@@ -8,6 +8,7 @@ import 'package:flutter_app/widget_common/custom_textfield.dart';
 // import 'package:flutter_app';
 import 'package:flutter_app/widget_common/our_button.dart';
 import 'package:get/get.dart';
+import 'package:flutter_app/HomeScreen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -37,7 +38,9 @@ class LoginScreen extends StatelessWidget {
                       color: purple,
                       title: login,
                       textColor: whiteColor,
-                      onPress: () {})
+                      onPress: () {
+                        Get.to(() => const HomeScreen());
+                      })
                   .box
                   .width(context.screenWidth - 50)
                   .make(),

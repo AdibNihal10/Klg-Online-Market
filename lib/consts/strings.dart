@@ -15,3 +15,7 @@ const createNewAccount = "or, create a New Account";
 const loginwith = "Log in with";
 const privacyPolicy = "Privacy Policy";
 const terms = "Terms and Conditions";
+const home = "Home",
+    categories = "Categories",
+    cart = "Cart",
+    account = "Account";
