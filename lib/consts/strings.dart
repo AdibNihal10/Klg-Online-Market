@@ -8,6 +8,10 @@ const passwordHint = "*******";
 const forgetPass = "Forget Password";
 const login = "Log in";
 const signup = "Sign up";
-
+const reTypepassword = "Retype Password";
+const name = "Name";
+const nameHint = "Enter Name";
 const createNewAccount = "or, create a New Account";
 const loginwith = "Log in with";
+const privacyPolicy = "Privacy Policy";
+const terms = "Terms and Conditions";

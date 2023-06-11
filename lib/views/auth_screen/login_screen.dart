@@ -1,3 +1,4 @@
+import 'package:flutter_app/views/auth_screen/signup_screen.dart';
 import 'package:flutter_app/widget_common/applogo_widget.dart';
 import 'package:flutter_app/widget_common/bd_widget.dart';
 // import 'package:flutter_app/widget_common/applogo_widget.dart';
@@ -6,6 +7,7 @@ import 'package:flutter_app/consts/consts.dart';
 import 'package:flutter_app/widget_common/custom_textfield.dart';
 // import 'package:flutter_app';
 import 'package:flutter_app/widget_common/our_button.dart';
+import 'package:get/get.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -44,13 +46,12 @@ class LoginScreen extends StatelessWidget {
               5.heightBox,
 
               ourButton(
-                      color: yellow,
-                      title: signup,
-                      textColor: redColor,
-                      onPress: () {})
-                  .box
-                  .width(context.screenWidth - 50)
-                  .make(),
+                  color: yellow,
+                  title: signup,
+                  textColor: redColor,
+                  onPress: () {
+                    Get.to(() => const Signup());
+                  }).box.width(context.screenWidth - 50).make(),
             ],
           )
               .box
