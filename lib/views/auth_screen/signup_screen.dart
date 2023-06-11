@@ -3,6 +3,7 @@ import 'package:flutter_app/widget_common/bd_widget.dart';
 import 'package:flutter_app/widget_common/applogo_widget.dart';
 import 'package:flutter_app/widget_common/custom_textfield.dart';
 import 'package:flutter_app/widget_common/our_button.dart';
+import 'package:get/get.dart';
 
 class Signup extends StatelessWidget {
   const Signup({Key? key}) : super(key: key);
@@ -77,6 +78,23 @@ class Signup extends StatelessWidget {
                   .box
                   .width(context.screenWidth - 50)
                   .make(),
+              10.heightBox,
+              RichText(
+                text: const TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "Already have an account? ",
+                      style: TextStyle(fontFamily: bold, color: fontGrey),
+                    ),
+                    TextSpan(
+                      text: "Log In ",
+                      style: TextStyle(fontFamily: bold, color: redColor),
+                    ),
+                  ],
+                ),
+              ).onTap(() {
+                Get.back();
+              }),
             ],
           )
               .box
