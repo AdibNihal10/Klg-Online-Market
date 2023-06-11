@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
 
     var navbarItem = [
       BottomNavigationBarItem(
-          icon: Image.asset(icHome, width: 26), label: home),
+          icon: Image.asset(homeimg, width: 26), label: home),
       BottomNavigationBarItem(
           icon: Image.asset(icCategories, width: 26), label: categories),
       BottomNavigationBarItem(
@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
         () => BottomNavigationBar(
             currentIndex: controller.currentNavIndex.value,
             selectedItemColor: redColor,
-            selectedLabelStyle: TextStyle(fontFamily: semibold),
+            selectedLabelStyle: const TextStyle(fontFamily: bold),
             type: BottomNavigationBarType.fixed,
             backgroundColor: whiteColor,
             items: navbarItem,
