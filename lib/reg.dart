@@ -27,22 +27,22 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          backgroundColor: Color(0xFFF5F5F5),
+          backgroundColor: const Color(0xFFF5F5F5),
           appBar: AppBar(
-            title: Text('Register Page'),
+            title: const Text('Register Page'),
           ),
           body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 'Register',
                 style: TextStyle(
                     fontSize: 35,
                     color: Colors.purple,
                     fontWeight: FontWeight.bold),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
               Form(
@@ -52,8 +52,8 @@ class LoginPage extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 15),
                       child: TextField(
                         keyboardType: TextInputType.name,
-                        style: TextStyle(color: Colors.purple),
-                        decoration: InputDecoration(
+                        style: const TextStyle(color: Colors.purple),
+                        decoration: const InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
                           labelText: 'Username',
@@ -72,18 +72,18 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        onChanged: (String Value) {},
+                        onChanged: (String constValue) {},
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 15),
                       child: TextField(
                         keyboardType: TextInputType.emailAddress,
-                        style: TextStyle(color: Colors.purple),
-                        decoration: InputDecoration(
+                        style: const TextStyle(color: Colors.purple),
+                        decoration: const InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
                           labelText: 'Email',
@@ -105,7 +105,7 @@ class LoginPage extends StatelessWidget {
                         onChanged: (String Value) {},
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
                     Padding(
@@ -113,7 +113,7 @@ class LoginPage extends StatelessWidget {
                       child: TextField(
                         keyboardType: TextInputType.visiblePassword,
                         style: TextStyle(color: Colors.purple),
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
                           labelText: 'Password',
@@ -132,10 +132,10 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        onChanged: (String Value) {},
+                        onChanged: (String constValue) {},
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
                     Padding(
@@ -143,7 +143,7 @@ class LoginPage extends StatelessWidget {
                       child: TextField(
                         keyboardType: TextInputType.visiblePassword,
                         style: TextStyle(color: Colors.purple),
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
                           labelText: 'Confirm Password',
@@ -165,7 +165,7 @@ class LoginPage extends StatelessWidget {
                         onChanged: (String Value) {},
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
                     Padding(
@@ -173,7 +173,7 @@ class LoginPage extends StatelessWidget {
                       child: TextField(
                         keyboardType: TextInputType.phone,
                         style: TextStyle(color: Colors.purple),
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           filled: true,
                           fillColor: Colors.white,
                           labelText: 'Phone Number',
@@ -195,7 +195,7 @@ class LoginPage extends StatelessWidget {
                         onChanged: (String Value) {},
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 15,
                     ),
                     Padding(
@@ -204,7 +204,7 @@ class LoginPage extends StatelessWidget {
                           minWidth: double.maxFinite,
                           height: 50,
                           onPressed: () {},
-                          child: Text('Register'),
+                          child: const Text('Register'),
                           color: Colors.purple,
                           textColor: Colors.white,
                         )),
