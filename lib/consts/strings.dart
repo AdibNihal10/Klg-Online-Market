@@ -15,3 +15,11 @@ const createNewAccount = "or, create a New Account";
 const loginwith = "Log in with";
 const privacyPolicy = "Privacy Policy";
 const terms = "Terms and Conditions";
+
+// item strings
+const video = "Video",
+    reviews = "Reviews",
+    sellerpolicy = "Seller Policy",
+    returnpolicy = "Return Policy",
+    supportPolicy = "Support Policy",
+    productsyoumaylike = "Products you may also like";
