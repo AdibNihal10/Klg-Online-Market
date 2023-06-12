@@ -15,6 +15,7 @@ const createNewAccount = "or, create a New Account";
 const loginwith = "Log in with";
 const privacyPolicy = "Privacy Policy";
 const terms = "Terms and Conditions";
+<<<<<<< HEAD
 
 // item strings
 const video = "Video",
@@ -23,3 +24,22 @@ const video = "Video",
     returnpolicy = "Return Policy",
     supportPolicy = "Support Policy",
     productsyoumaylike = "Products you may also like";
+=======
+const alreadyHaveAccount = "Already Have an Account?";
+
+//home strings
+const home = "Home",
+    categories = "Categories",
+    cart = "Cart",
+    account = "Account";
+
+//home screen strings
+
+const searchanything = "Search anything...",
+    todayDeal = "Today's deal",
+    flashsale = "Flash Sale",
+    topSeller = "Top Sellers",
+    brand = "Brand",
+    topCategories = "TopCategories",
+    featuredCategories = "Featured Categories";
+>>>>>>> 6aa1007378dcc10e88a954c73858abfab970eab2

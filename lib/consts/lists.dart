@@ -1,5 +1,4 @@
 import 'package:flutter_app/consts/consts.dart';
-import 'package:flutter_app/views/category_screen/item_details.dart';
 
 const socialIconList = [icFacebookLogo, icGoogleLogo, icTwitterLogo];
 
