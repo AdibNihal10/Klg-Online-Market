@@ -33,6 +33,17 @@ const searchanything = "Search anything...",
     topCategories = "TopCategories",
     featuredCategories = "Featured Categories";
 
+//category Strings
+const womenClothing = "Women Clothing",
+    menClothingFashion = "Men Clothing & Fashion",
+    compAccess = "Computer & Accessories",
+    automobile = "Automobile",
+    kidtoys = "Kids & Toys",
+    sports = "Sports",
+    jewelerry = "Jewelerry",
+    cellphone = "Cellphone & Tab",
+    furniture = "Furniture";
+
 // item details String
 
 const video = "Video",
@@ -41,4 +52,3 @@ const video = "Video",
     returnpolicy = "Return Policy",
     supportPolicy = "Support Policy",
     productsyoumaylike = "Products you may also like";
-    
