@@ -19,3 +19,14 @@ const home = "Home",
     categories = "Categories",
     cart = "Cart",
     account = "Account";
+const searchAnything = "Search Anyting... ",
+    todayDeal = "Today's deal",
+    flashsale = " Flashsale",
+    topSellers = "Top Sellers",
+    brand = "Brand",
+    topCategories = "Top Categories",
+    featueredCategories = "Featured Categories";
+
+//profile
+
+const wishList = "My Wishlist", orders = "My Orders", messages = "Messages";

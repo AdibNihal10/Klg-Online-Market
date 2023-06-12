@@ -1,6 +1,11 @@
+import 'package:flutter_app/views/category_screen/category_screen.dart';
 import 'package:get/get.dart';
 import 'package:flutter_app/Contollers/Home_controller.dart';
 import 'package:flutter_app/consts/consts.dart';
+import 'package:flutter_app/views/home_screen/Home_screen.dart';
+// import 'package:flutter_app/views/cart/cart_screen.dart';
+import 'package:flutter_app/views/profile/profile_screen.dart';
+import '../cart/cart_screen.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -22,10 +27,15 @@ class Home extends StatelessWidget {
     ];
 
     var navBody = [
-      Container(color: Colors.blue),
-      Container(color: Colors.amber),
-      Container(color: Colors.purple),
-      Container(color: Colors.cyan),
+      // Container(color: Colors.blue),
+      // Container(color: Colors.amber),
+      // Container(color: Colors.purple),
+      // Container(color: Colors.cyan),
+      const HomeScreen(),
+
+      const CategoryScreen(),
+      const CartScreen(),
+      const ProfileScreen(),
     ];
 
     return Scaffold(
@@ -39,7 +49,7 @@ class Home extends StatelessWidget {
         () => BottomNavigationBar(
             currentIndex: controller.currentNavIndex.value,
             selectedItemColor: redColor,
-            selectedLabelStyle: TextStyle(fontFamily: semibold),
+            selectedLabelStyle: const TextStyle(fontFamily: semibold),
             type: BottomNavigationBarType.fixed,
             backgroundColor: whiteColor,
             items: navbarItem,
