@@ -130,3 +130,4 @@ const imgTwocheckout = "assets/images/twocheckout.png";
 const imgVogue = "assets/images/vogue.png";
 const imgWallet = "assets/images/wallet.png";
 const homeimg = "assets/images/254967.png";
+const profileimg = "assets/images/profile.png";

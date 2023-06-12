@@ -5,13 +5,14 @@ const socialIconList = [icFacebookLogo, icGoogleLogo, icTwitterLogo];
 const slidersList = [imgSlider1, imgSlider2, imgSlider3, imgSlider4];
 const secondSlidersList = [imgSs1, imgSs2, imgSs3, imgSs4];
 
-<<<<<<< HEAD
 const featuredImages1 = [imgS1, imgS2, imgS3];
 const featuredImages2 = [imgS4, imgS5, imgS6];
+const profileButtonList = [orders, wishList, messages];
+
+const profileButtonIcon = [icOrder, icOrders, icMessages];
 
 const featuredTitles1 = [womenDress, girlsDress, girlsWatches];
 const featuredTitles2 = [boysGlasses, mobilePhone, tShirts];
-=======
 const categoryImages = [
   imgS1,
   imgFc1,
@@ -31,4 +32,3 @@ const itemDetailButtonsList = [
   returnpolicy,
   supportPolicy
 ];
->>>>>>> 52556171983fe5bbb1c89b91ec1bcb0f4a3615c4
