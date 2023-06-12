@@ -1,3 +1,7 @@
+import 'package:flutter_app/HomeScreen.dart';
+import 'package:flutter_app/views/cart_screen/cart_screen.dart';
+import 'package:flutter_app/views/category_screen/category_screen.dart';
+import 'package:flutter_app/views/profile_screen/profile_screen.dart';
 import 'package:get/get.dart';
 import 'package:flutter_app/Contollers/Home_controller.dart';
 import 'package:flutter_app/consts/consts.dart';
@@ -22,10 +26,10 @@ class Home extends StatelessWidget {
     ];
 
     var navBody = [
-      Container(color: Colors.blue),
-      Container(color: Colors.amber),
-      Container(color: Colors.purple),
-      Container(color: Colors.cyan),
+      const HomeScreen(),
+      const CategoryScreen(),
+      const CartScreen(),
+      const ProfileScreen(),
     ];
 
     return Scaffold(
