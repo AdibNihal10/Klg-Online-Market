@@ -1,9 +1,9 @@
-import 'package:flutter_app/HomeScreen.dart';
+import 'package:flutter_app/views/home_screen/home_screen.dart';
 import 'package:flutter_app/views/cart_screen/cart_screen.dart';
 import 'package:flutter_app/views/category_screen/category_screen.dart';
 import 'package:flutter_app/views/profile_screen/profile_screen.dart';
 import 'package:get/get.dart';
-import 'package:flutter_app/Contollers/Home_controller.dart';
+import 'package:flutter_app/Contollers/home_controller.dart';
 import 'package:flutter_app/consts/consts.dart';
 
 class Home extends StatelessWidget {
@@ -43,7 +43,7 @@ class Home extends StatelessWidget {
         () => BottomNavigationBar(
             currentIndex: controller.currentNavIndex.value,
             selectedItemColor: redColor,
-            selectedLabelStyle: TextStyle(fontFamily: semibold),
+            selectedLabelStyle: const TextStyle(fontFamily: semibold),
             type: BottomNavigationBarType.fixed,
             backgroundColor: whiteColor,
             items: navbarItem,
