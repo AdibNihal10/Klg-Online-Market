@@ -15,16 +15,6 @@ const createNewAccount = "or, create a New Account";
 const loginwith = "Log in with";
 const privacyPolicy = "Privacy Policy";
 const terms = "Terms and Conditions";
-<<<<<<< HEAD
-
-// item strings
-const video = "Video",
-    reviews = "Reviews",
-    sellerpolicy = "Seller Policy",
-    returnpolicy = "Return Policy",
-    supportPolicy = "Support Policy",
-    productsyoumaylike = "Products you may also like";
-=======
 const alreadyHaveAccount = "Already Have an Account?";
 
 //home strings
@@ -42,4 +32,13 @@ const searchanything = "Search anything...",
     brand = "Brand",
     topCategories = "TopCategories",
     featuredCategories = "Featured Categories";
->>>>>>> 6aa1007378dcc10e88a954c73858abfab970eab2
+
+// item details String
+
+const video = "Video",
+    reviews = "Reviews",
+    sellerpolicy = "Seller Policy",
+    returnpolicy = "Return Policy",
+    supportPolicy = "Support Policy",
+    productsyoumaylike = "Products you may also like";
+    
